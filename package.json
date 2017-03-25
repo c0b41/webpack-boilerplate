@@ -1,0 +1,35 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "webpack basic boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config webpack.dev.config.js",
+    "production": "webpack --config webpack.production.config.js",
+    "watch": "npm run dev -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0b41/webpack-boilerplate.git"
+  },
+  "keywords": [
+    "webpack",
+    "basic",
+    "boilerplate"
+  ],
+  "author": "c0b41",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c0b41/webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/c0b41/webpack-boilerplate#readme",
+  "devDependencies": {
+    "webpack-dashboard": "^0.3.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babili-webpack-plugin": "^0.0.11",
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "webpack": "^2.3.2"
+  }
+}
