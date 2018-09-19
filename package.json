@@ -2,7 +2,7 @@
   "name": "webpack-boilerplate",
   "version": "1.0.0",
   "description": "webpack basic boilerplate",
-  "main": "index.js",
+  "main": "app/assets/index.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.config.js --watch",
     "production": "webpack --config webpack.production.config.js",
